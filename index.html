@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моё портфолио</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Слайдер -->
+    <section class="slider">
+        <div class="slides">
+            <div class="slide active"><img src="https://via.placeholder.com/1200x400/4CAF50/FFFFFF?text=Слайд+1" alt="Слайд 1"></div>
+            <div class="slide"><img src="https://via.placeholder.com/1200x400/2196F3/FFFFFF?text=Слайд+2" alt="Слайд 2"></div>
+            <div class="slide"><img src="https://via.placeholder.com/1200x400/FF9800/FFFFFF?text=Слайд+3" alt="Слайд 3"></div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">‹</button>
+        <button class="next" onclick="changeSlide(1)">›</button>
+    </section>
+
+    <!-- Обо мне -->
+    <section class="about">
+        <h2>Обо мне</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Привет! Я — дизайнер с 5‑летним опытом работы. Специализируюсь на веб‑дизайне, брендинге и иллюстрациях. Моя цель — создавать красивые и функциональные решения, которые помогают бизнесу расти.</p>
+            </div>
+            <div class="about-skills">
+                <h3>Навыки</h3>
+                <ul>
+                    <li>Веб‑дизайн</li>
+                    <li>UI/UX</li>
+                    <li>Графика</li>
+                    <li>Иллюстрации</li>
+                    <li>Photoshop, Figma</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Галерея работ -->
+    <section class="gallery">
+        <h2>Мои работы</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="https://via.placeholder.com/300x200/9C27B0/FFFFFF?text=Работа+1" alt="Работа 1"></div>
+            <div class="gallery-item"><img src="https://via.placeholder.com/300x200/E91E63/FFFFFF?text=Работа+2" alt="Работа 2"></div>
+            <div class="gallery-item"><img src="https://via.placeholder.com/300x200/673AB7/FFFFFF?text=Работа+3" alt="Работа 3"></div>
+            <div class="gallery-item"><img src="https://via.placeholder.com/300x200/3F51B5/FFFFFF?text=Работа+4" alt="Работа 4"></div>
+            <div class="gallery-item"><img src="https://via.placeholder.com/300x200/009688/FFFFFF?text=Работа+5" alt="Работа 5"></div>
+            <div class="gallery-item"><img src="https://via.placeholder.com/300x200/FF5722/FFFFFF?text=Работа+6" alt="Работа 6"></div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
